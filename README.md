@@ -7,35 +7,35 @@
 
 ### Install & Run
 
-- Install [node/npm][2].
+- **Install [node/npm][2]**
 
-- Clone the project:
+- **Clone the project:**
 
 ```bash
 $ git clone https://github.com/nicholaswmin/node-server.git
 ```
 
-- Get into the project directory
+- **Get into the project directory:**
 
 ```bash
 $ cd node-server
 ```
 
-- Install project dependencies:
+- **Install project dependencies:**
 
 ```bash
 $ npm install
 
 ```
 
-- Run the app:
+- **Run the app:**
 
 ```bash
 $ node app.js
 
 ```
 
-Hooray! You're running a local server on port 8081.
+**Hooray!** You're running a local server on port 8081.
 
 - Visit `http://http://localhost:8081` on your favorite browser to check it out.
 
