@@ -1,7 +1,7 @@
 ![][1]
 # Node Server
 
-> Simple & basic Node/Express Server in < 20 lines of code (comments included)
+> Simple & basic Node/Express Server in < 20 lines of code (comments included) bundled with honest instructions.
 
 
 ## Overview
