@@ -5,6 +5,11 @@
 
 ====
 
+### Overview
+
+A very simple Node.js server that uses the Express framework.
+It includes 3 pages (Homepage, About Us, Contact Us) to get you accustomed on how routing works in Node/Express.
+
 ### Install & Run
 
 These are 5 simple steps that even a monkey can follow.
@@ -54,19 +59,25 @@ $ node app.js
 
 - There are 2 more pages for you to check out:
 
- - The *About Us* page at `http://localhost:8081/about`
+ - The *About Us* page at http://localhost:8081/about
 
- - The *Contact Us* page at `http://localhost:8081/contact`
+ - The *Contact Us* page at http://localhost:8081/contact
 
 ====
 
 ### Wanna play with the code?
 
-- Open `app.js` in a code editor. Check out [Atom][5] or [Sublime Text][4] if you don't have one.
+Simply open `app.js` in the project's folder, make your changes and restart the server.
 
-- Make your changes. E.g Add another page/route, perhaps an 'Our Team' page.
+**1) Open `app.js` in a code editor:**
 
-- Restart the server
+- Check out [Atom][5] or [Sublime Text][4] if you don't have one.
+
+**2) Make your changes:**
+
+- E.g You can add another page/route, perhaps an 'Our Team' page.
+
+**3) Restart the server:**
 
  - Press `CTRL + C` in your terminal to stop the server and then run it again:
 
@@ -89,7 +100,7 @@ Make sure you describe:
 - The steps you followed.
 - The step you got stuck.
 - The error you are seeing (terminal errors).
-- The platform you are on (Operating System / Browser brand and version)
+- The platform you are on (Operating System & Browser brand and version)
 
 ### Want more?
 
