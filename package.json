@@ -7,12 +7,11 @@
     "test": "mocha test.js"
   },
   "keywords": [
+    "basic",
     "simple",
-    "server",
-    "example",
     "node",
-    "test",
-    "training"
+    "server",
+    "express"
   ],
   "author": "@nicholaswmin",
   "license": "MIT",
