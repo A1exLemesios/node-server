@@ -23,9 +23,11 @@ These are 5 simple steps that even a monkey can follow. After going through them
 
 - Windows users need to install [Git for Windows][3].
 
-Node.js is the runtime environment for server-side Javascript. If you don't have this your computer won't be able to understand(interpret) the code in this project. Long story short it won't be able to run the code.
+Node.js is the runtime environment for server-side Javascript. If you don't have this, your computer won't be able to understand (interpret) the code in this project. Long story short it won't be able to run the code.
 
-[Git][14] is the version control system(VCS) for this project. Something like Dropbox but for code. You don't actually need it since you can just [Download the project as ZIP](https://github.com/nicholaswmin/node-server/archive/master.zip) and run it. However the instructions below assume that you're using Git to fetch the project files on your computer.
+[Git][14] is the Version Control System (VCS) for this project. Something like Dropbox but for code. You don't actually need it since you can just [Download the project as ZIP](https://github.com/nicholaswmin/node-server/archive/master.zip) and run it. However the instructions below assume that you're using Git to fetch the project files on your computer.
+
+Using some type of VCS is the first step to get you hanging out with the cool kids, not using it makes you a dolt in the long-term and rightfully so.
 
 
 ### 2. Open up a Terminal/Shell on your computer:
@@ -146,11 +148,11 @@ Some things you can Google:
 
 ### Disclaimer:
 
+There's a ton of similar projects online. I know that. I had wisdom-tooth surgery, was almost high on codeine when I wrote this and I was feeling generous. It was also a good chance to help out a colleague understand what's going on when I hand him Node.js servers to deploy.
+
 This repo is [MIT][8] licensed, meaning you can do whatever you want with it, even sell this code as your own.
 
 The project logo (that cloud icon) is from [icons8.com][8]
-
-There's a ton of similar projects online. I know that. I had wisdom-tooth surgery, was almost high on codeine when I wrote this and I was feeling generous. It was also a good chance to help out a colleague understand what's going on when I hand him Node.js servers to deploy.
 
 
 [1]:https://maxcdn.icons8.com/Color/PNG/96/Weather/cloud_lighting-96.png
