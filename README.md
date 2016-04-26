@@ -41,9 +41,9 @@ $ node app.js
 
 - There are 2 more pages for you to check out:
 
- - The *About Us* page at `http://http://localhost:8081/about`
+ - The *About Us* page at `http://localhost:8081/about`
 
- - The *Contact Us* page at `http://http://localhost:8081/contact`
+ - The *Contact Us* page at `http://localhost:8081/contact`
 
 ====
 
@@ -57,7 +57,8 @@ $ node app.js
 
 - Restart the server
 
- - Press `CTRL + C` in your terminal to stop the running server and run it again:
+ - Press `CTRL + C` in your terminal to stop the server and then run it again:
+
 
  ```bash
  $ node app.js
