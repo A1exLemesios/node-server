@@ -1,0 +1,22 @@
+{
+  "name": "node-server",
+  "version": "0.0.1",
+  "description": "A node simple server",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "keywords": [
+    "simple",
+    "server",
+    "example",
+    "node",
+    "test",
+    "training"
+  ],
+  "author": "@nicholaswmin",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
