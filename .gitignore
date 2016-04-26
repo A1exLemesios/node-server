@@ -1,0 +1,8 @@
+# This file contains files & folders we want Git to ignore when pushing code #
+##############################################################################
+
+
+# Node.js files #
+#################
+
+node_modules

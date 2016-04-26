@@ -60,7 +60,8 @@ $ node app.js
 
 ### Wanna play with the code?
 
-- Open `app.js` in your favorite code editor
+- Open `app.js` in your favorite code editor.
+ - Some popular and easy to use editors are [Sublime Text][4] & [Atom][5]
 
 - Make your changes
 
@@ -85,12 +86,14 @@ Feel free to snoop around.
 
 Some things you can Google:
 
-- [What's package.json file in the project?][4]
-- [Node.js & Express framework tutorial for beginners][5]
+- [What's package.json file in the project?][6]
+- [Node.js & Express framework tutorial for beginners][7]
 
 
 [1]:https://maxcdn.icons8.com/Color/PNG/96/Weather/cloud_lighting-96.png
 [2]:https://nodejs.org/en/download/
 [3]:https://git-scm.com/download/win
-[4]:https://github.com/vigetlabs/gulp-starter/wiki/What-is-package.json%3F
-[5]:https://codeforgeek.com/2014/06/express-nodejs-tutorial/
+[4]:https://www.sublimetext.com/
+[5]:https://atom.io/
+[6]:https://github.com/vigetlabs/gulp-starter/wiki/What-is-package.json%3F
+[7]:https://codeforgeek.com/2014/06/express-nodejs-tutorial/
