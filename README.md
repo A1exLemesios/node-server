@@ -40,9 +40,16 @@ Using some type of VCS is the first step to get you hanging out with the cool ki
 
 A terminal is basically a window that allows you to instruct your computer to do something using text commands, instead of point-and-click with the mouse. There is virtually no way you can do any serious development without using a terminal since most of the commands to setup/initialize a project can only be run through a terminal. There's no need to be afraid of the terminal. It doesn't bite and it doesn't expect you to know all the commands from the get-go. To go through this project just 5-6 commands are needed which you can simply copy & paste into it.
 
-### 3. Clone the project and get into the cloned project's folder:
 
-**Note**: The `$` character in the commands below just indicates that it's a terminal command. Don't include it in the actual command within your Terminal.
+- The `$` character in the commands below just indicates that it's a terminal command. Don't include it in the actual command within your Terminal.
+
+- Some commands won't run from the get-go. This is because some commands require *Administrator rights to run*.
+
+  - **Mac OSX:** Prefix your commands with `sudo` (meaning `s`uper `u`ser `do` - e.g `$ sudo git clone ...`). It will ask for your password the first time you use `sudo` and it won't ask again for some time.
+
+  - **Windows:** Right-click on `cmd` and click *Run as Administrator* to launch `cmd` using Administrator rights.
+
+### 3. Clone the project and get into the cloned project's folder:
 
 ```bash
 $ git clone https://github.com/nicholaswmin/node-server.git
