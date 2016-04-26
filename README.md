@@ -84,9 +84,6 @@ Simply open `app.js` in the project's folder, make your changes and restart the 
 
  - Press `CTRL + C` in your terminal to stop the server and then run it again:
 
- - Check out [nodemon][10] if you don't want to restart the server each time you make changes
-
-
 ```bash
 $ node app.js
 
