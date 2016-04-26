@@ -78,11 +78,15 @@ The file that contains the actual server code that I wrote is contained in a fil
 
 What this command does is it tells the computer to *run* `app.js` using Node.js. Node takes the file, interprets the contents (code) and then outputs something in your terminal to tell you if everything is allright. Most of the time we get errors when doing so because development ain't a walk in the park. But we work through them.
 
-**Nice stuff!** If everything went OK you should be running a local server on port `8081`.
+**Nice stuff!** 
+
+If everything went OK you should be running a local server on port `8081`.
+
+- Your terminal should display this: *Running! Visit http://localhost:8081 in your browser.*
 
 - To test it visit <http://localhost:8081> on your favorite browser to check it out.
 
-- You should see a plain and ugly "Welcome to the Homepage!" being displayed.
+- You should see a plain and ugly *"Welcome to the Homepage!"* being displayed.
 
 - There are 2 more pages for you to check out:
 
