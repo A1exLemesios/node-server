@@ -5,54 +5,52 @@
 
 ====
 
-### Install some
-
 ### Install & Run
 
 These are 5 simple steps that even a monkey can follow.
 
-1) **Install the required programs to work with this project**:
+**1) Install the required programs to work with this project**:
 
  - Install [Node.js][2]
 
  - Windows users need to install [Git for Windows][3].
 
 
-2) **Open up a Terminal on your computer:**
+**2) Open up a Terminal/Shell on your computer:**
 
- - Both Mac & Windows have some kind of a terminal already installed:
+ Both Mac & Windows have some kind of a terminal already installed:
 
- - For **Mac OSX:** Launch the *Terminal* from your *Applications*.
+ - **Mac OSX**: Launch *Terminal* from your *Applications*.
 
- - For **Windows:** Launch *CMD* (It's somewhere on your computer).
+ - **Windows**: Launch *Command Line(cmd)* - It's somewhere on your computer.
+
+
+**3) Clone the project and get into the cloned project's folder:**
 
 *Note: Skip the '$' character when copy-pasting or typing the commands in your terminal*
-
-
-3) **Clone the project and get into the cloned project's folder:**
 
 ```bash
 $ git clone https://github.com/nicholaswmin/node-server.git
 $ cd node-server
 ```
 
-4) **Install project dependencies:**
+**4) Install project dependencies:**
 
 ```bash
 $ npm install
 
 ```
 
-5) **Run the app:**
+**5) Run the app:**
 
 ```bash
 $ node app.js
 
 ```
 
-**Hooray!** You're running a local server on port 8081.
+**Nice stuff!** You're running a local server on port `8081`.
 
-- Visit `http://http://localhost:8081` on your favorite browser to check it out.
+- Visit http://localhost:8081 on your favorite browser to check it out.
 
 - There are 2 more pages for you to check out:
 
@@ -64,16 +62,15 @@ $ node app.js
 
 ### Wanna play with the code?
 
-- Open `app.js` in your favorite code editor.
- - Some popular and easy to use editors are [Sublime Text][4] & [Atom][5].
+- Open `app.js` in a code editor. Check out [Atom][5] or [Sublime Text][4] if you don't have one.
 
-- Make your changes
-
- - Why not add another route/page? E.g 'Our Team' page.
+- Make your changes. E.g Add another page/route, perhaps an 'Our Team' page.
 
 - Restart the server
 
  - Press `CTRL + C` in your terminal to stop the server and then run it again:
+
+ - Check out [nodemon][10] if you don't want to restart the server each time you make changes
 
 
 ```bash
@@ -122,3 +119,4 @@ The project logo (that cloud icon) is from [icons8.com][8]
 [7]:https://codeforgeek.com/2014/06/express-nodejs-tutorial/
 [8]:https://icons8.com/
 [9]:https://github.com/nicholaswmin/node-server/issues/new
+[10]:https://github.com/remy/nodemon
