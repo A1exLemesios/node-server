@@ -53,7 +53,7 @@ $ node app.js
 
 - Make your changes
 
- - why not add another page, e.g 'Our Team' page.
+ - Why not add another route/page? E.g 'Our Team' page.
 
 - Restart the server
 
