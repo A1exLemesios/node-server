@@ -3,7 +3,6 @@
 
 > Simple & basic Node/Express Server in < 20 lines of code (comments included)
 
-====
 
 ## Overview
 
@@ -13,7 +12,6 @@ It includes 3 pages (Homepage, About Us, Contact Us) to get you accustomed on ho
 
 This README instructions assume very little prior coding experience however you are expected to google stuff a bit if you get stuck.
 
-====
 
 ## Install & Run
 
@@ -68,7 +66,7 @@ $ node app.js
 
  - The *Contact Us* page at http://localhost:8081/contact
 
-====
+
 
 ## Wanna play with the code?
 
@@ -94,11 +92,12 @@ $ node app.js
 
 ```
 
-====
 
 ## Something not working?
 
-Open up an Issue by clicking [here][9].
+Try some Googling first.
+
+If that doesn't work open up an Issue by clicking [here][9].
 
 Make sure you describe:
 
@@ -118,7 +117,6 @@ Some things you can Google:
 - [What's package.json file in the project?][6]
 - [Node.js & Express framework tutorial for beginners][7]
 
-====
 
 ## Disclaimer:
 
