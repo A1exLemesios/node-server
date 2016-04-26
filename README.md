@@ -6,11 +6,11 @@
 
 ## Overview
 
-This is a very simple Node.js server that uses the Express framework.
+This is a very simple [Node.js][13] server that uses the [Express][12] framework.
 
 It includes 3 pages (Homepage, About Us, Contact Us) to get you accustomed on how routing works in Node/Express.
 
-These README instructions assume very little prior coding experience however you are expected to google stuff a bit if you get stuck.
+These following instructions assume very little prior coding experience however you are expected to google stuff a bit if you get stuck.
 
 
 ## Install & Run
@@ -159,3 +159,5 @@ There's a ton of similar projects online. I know that. I had wisdom-tooth surger
 [9]:https://github.com/nicholaswmin/node-server/issues/new
 [10]:https://github.com/remy/nodemon
 [11]:https://www.npmjs.com/
+[12]:http://expressjs.com/
+[13]:https://nodejs.org/
