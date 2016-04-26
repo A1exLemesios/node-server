@@ -8,7 +8,12 @@
 ### Overview
 
 A very simple Node.js server that uses the Express framework.
+
 It includes 3 pages (Homepage, About Us, Contact Us) to get you accustomed on how routing works in Node/Express.
+
+This README instructions assume very little prior coding experience however you are expected to google stuff a bit if you get stuck.
+
+====
 
 ### Install & Run
 
@@ -100,7 +105,8 @@ Make sure you describe:
 - The steps you followed.
 - The step you got stuck.
 - The error you are seeing (terminal errors).
-- The platform you are on (Operating System & Browser brand and version)
+- The platform you are on (Operating System & Browser brand and version).
+
 
 ### Want more?
 
