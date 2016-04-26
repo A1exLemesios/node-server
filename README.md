@@ -5,7 +5,9 @@
 
 ====
 
-### Install & Run (6 simple steps)
+### Install & Run
+
+(4 - 6 simple steps that even a monkey can follow).
 
 - **Install [node/npm][2]**
 
