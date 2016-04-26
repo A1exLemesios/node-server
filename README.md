@@ -148,7 +148,7 @@ Some things you can Google:
 
 ### Disclaimer:
 
-There's a ton of similar projects online. I know that. I had wisdom-tooth surgery, was almost high on codeine when I wrote this and I was feeling generous. It was also a good chance to help out a colleague understand what's going on when I hand him Node.js servers to deploy.
+There's a ton of similar projects online. I know that. I had wisdom-tooth surgery, was almost high on codeine when I wrote this and I was feeling generous. It was also a good chance to help out a trainee colleague understand what's going on when I hand him Node.js servers to deploy.
 
 This repo is [MIT][8] licensed, meaning you can do whatever you want with it, even sell this code as your own.
 
