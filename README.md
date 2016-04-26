@@ -61,7 +61,7 @@ $ node app.js
 ### Wanna play with the code?
 
 - Open `app.js` in your favorite code editor.
- - Some popular and easy to use editors are [Sublime Text][4] & [Atom][5]
+ - Some popular and easy to use editors are [Sublime Text][4] & [Atom][5].
 
 - Make your changes
 
