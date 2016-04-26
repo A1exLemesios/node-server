@@ -5,9 +5,18 @@
 
 ====
 
-### Install & Run
+### Install & Run (6 simple steps)
 
 - **Install [node/npm][2]**
+
+- **Open up a Terminal on your computer:**
+
+ - Both Mac/Windows have some kind of a terminal already installed:
+
+   - For **Mac OSX:** Launch the *Terminal* from your *Applications*.
+
+   - For **Windows:** Launch **CMD** (It's somewhere on your computer).
+    - **Important:** Windows users also need to install [Git for Windows][5].
 
 - **Clone the project:**
 
@@ -74,11 +83,12 @@ Feel free to snoop around.
 
 Some things you can Google:
 
-- [What's package.json file in the project?][3]
-- [Node.js & Express framework tutorial for beginners][4]
+- [What's package.json file in the project?][4]
+- [Node.js & Express framework tutorial for beginners][5]
 
 
 [1]:https://maxcdn.icons8.com/Color/PNG/96/Weather/cloud_lighting-96.png
 [2]:https://docs.npmjs.com/getting-started/installing-node
-[3]:https://github.com/vigetlabs/gulp-starter/wiki/What-is-package.json%3F
-[4]:https://codeforgeek.com/2014/06/express-nodejs-tutorial/
+[3]:https://git-scm.com/download/win
+[4]:https://github.com/vigetlabs/gulp-starter/wiki/What-is-package.json%3F
+[5]:https://codeforgeek.com/2014/06/express-nodejs-tutorial/
