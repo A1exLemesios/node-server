@@ -15,9 +15,9 @@
 
  - For **Mac OSX:** Launch the *Terminal* from your *Applications*.
 
- - For **Windows:** Launch **CMD** (It's somewhere on your computer).
+ - For **Windows:** Launch *CMD* (It's somewhere on your computer).
 
- - **Important:** Windows users also need to install [Git for Windows][5].
+**Important:** Windows users also need to install [Git for Windows][5].
 
 
 - **Clone the project:**
