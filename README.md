@@ -71,7 +71,10 @@ $ npm install
 
 ```
 
-The project relies on some Node Modules to make things tick. These are code files that someone else wrote bundle some functionality(image compression, encryption etc..) we can use in the project. The project depends on them and you can't run it properly without them. The most critical dependency here is Express which is boilerplate code that allows us to create proper servers using very few lines of code.
+The project relies on some Node Modules to make things tick. These are code files that someone else wrote which bundle some functionality we can use in the project.
+The project depends on them and you can't run it properly without them.
+
+The most critical dependency here is Express which is boilerplate code that allows us to create proper servers using very few lines of code.
 
 You can write you own Node modules if you want and use them. They are a nice way of [separating functionality][15] in different parts within your project.
 
