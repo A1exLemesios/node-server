@@ -60,10 +60,10 @@ $ node app.js
  - Press `CTRL + C` in your terminal to stop the server and then run it again:
 
 
- ```bash
- $ node app.js
+```bash
+$ node app.js
 
- ```
+```
 
 ====
 
