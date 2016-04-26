@@ -64,7 +64,7 @@ $ npm install
 
 ```
 
-The project relies on some dependencies or modules to make things tick. These are code files that someone else usually wrote that I'm just including in the project so I can use them. The project depends on them and you can run it properly without them. The most critical dependency here is Express which is boilerplate code that allows us to create proper servers in very few lines of code.
+The project relies on some Node Modules to make things tick. These are code files that someone else usually wrote that I'm just including in the project so I can use them. The project depends on them and you can't run it properly without them. The most critical dependency here is Express which is boilerplate code that allows us to create proper servers using very few lines of code.
 
 This command tells your computer to look somewhere on the Internet (the [npm][11] registry to be exact) for these modules, download them and install them for us. Hassle free.
 
