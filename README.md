@@ -1,47 +1,49 @@
 ![][1]
 ## Node Server
 
-> Simple & basic Node Server in < 20 lines of code (comments included)
+> Simple & basic Node/Express Server in < 20 lines of code (comments included)
 
 ====
 
+### Install some
+
 ### Install & Run
 
-(4 - 6 simple steps that even a monkey can follow).
+These are 5 simple steps that even a monkey can follow.
 
-- **Install [node/npm][2]**
+1) **Install the required programs to work with this project**:
 
-- **Open up a Terminal on your computer:**
+ - Install [Node.js][2]
 
- - Both Mac/Windows have some kind of a terminal already installed:
+ - Windows users need to install [Git for Windows][3].
+
+
+2) **Open up a Terminal on your computer:**
+
+ - Both Mac & Windows have some kind of a terminal already installed:
 
  - For **Mac OSX:** Launch the *Terminal* from your *Applications*.
 
  - For **Windows:** Launch *CMD* (It's somewhere on your computer).
 
-  - **Important:** Windows users also need to install [Git for Windows][5].
+*Note: Skip the '$' character when copy-pasting or typing the commands in your terminal*
 
 
-- **Clone the project:**
+3) **Clone the project and get into the cloned project's folder:**
 
 ```bash
 $ git clone https://github.com/nicholaswmin/node-server.git
-```
-
-- **Get into the project directory:**
-
-```bash
 $ cd node-server
 ```
 
-- **Install project dependencies:**
+4) **Install project dependencies:**
 
 ```bash
 $ npm install
 
 ```
 
-- **Run the app:**
+5) **Run the app:**
 
 ```bash
 $ node app.js
@@ -81,6 +83,17 @@ $ node app.js
 
 ====
 
+### Something not working?
+
+Open up an Issue by clicking [here][9].
+
+Make sure you describe:
+
+- The steps you followed.
+- The step you got stuck.
+- The error you are seeing (terminal errors).
+- The platform you are on (Operating System / Browser brand and version)
+
 ### Want more?
 
 There are myriads of Node Tutorials floating around on the web.
@@ -99,6 +112,7 @@ This repo is [MIT][8] licensed, meaning you can do whatever you want with it.
 
 The project logo (that cloud icon) is from [icons8.com][8]
 
+
 [1]:https://maxcdn.icons8.com/Color/PNG/96/Weather/cloud_lighting-96.png
 [2]:https://nodejs.org/en/download/
 [3]:https://git-scm.com/download/win
@@ -107,3 +121,4 @@ The project logo (that cloud icon) is from [icons8.com][8]
 [6]:https://github.com/vigetlabs/gulp-starter/wiki/What-is-package.json%3F
 [7]:https://codeforgeek.com/2014/06/express-nodejs-tutorial/
 [8]:https://icons8.com/
+[9]:https://github.com/nicholaswmin/node-server/issues/new
