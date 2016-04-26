@@ -58,13 +58,13 @@ $ node app.js
 
 **Nice stuff!** You're running a local server on port `8081`.
 
-- Visit [http://localhost:8081] on your favorite browser to check it out.
+- Visit <http://localhost:8081> on your favorite browser to check it out.
 
 - There are 2 more pages for you to check out:
 
- - The *About Us* page at [http://localhost:8081/about]
+ - The *About Us* page at <http://localhost:8081/about>
 
- - The *Contact Us* page at [http://localhost:8081/contact]
+ - The *Contact Us* page at <http://localhost:8081/contact>
 
 
 
