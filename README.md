@@ -15,7 +15,7 @@ This README instructions assume very little prior coding experience however you 
 
 ====
 
-### Install & Run
+## Install & Run
 
 These are 5 simple steps that even a monkey can follow.
 
@@ -70,7 +70,7 @@ $ node app.js
 
 ====
 
-### Wanna play with the code?
+## Wanna play with the code?
 
 Simply open `app.js` in the project's folder, make your changes and restart the server.
 
@@ -96,7 +96,7 @@ $ node app.js
 
 ====
 
-### Something not working?
+## Something not working?
 
 Open up an Issue by clicking [here][9].
 
@@ -108,7 +108,7 @@ Make sure you describe:
 - The platform you are on (Operating System & Browser brand and version).
 
 
-### Want more?
+## Want more?
 
 There are myriads of Node Tutorials floating around on the web.
 Feel free to snoop around.
@@ -120,7 +120,7 @@ Some things you can Google:
 
 ====
 
-### Disclaimer:
+## Disclaimer:
 
 This repo is [MIT][8] licensed, meaning you can do whatever you want with it.
 
