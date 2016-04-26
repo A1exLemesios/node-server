@@ -17,7 +17,7 @@ These following instructions assume very little prior coding experience however 
 
 These are 5 simple steps that even a monkey can follow. After going through them you should have a server running. You can then visit the pages declared on the server using your browser.
 
-### 1. Install the required applications to work with this project:
+### 1. You need some applications before you get started.
 
 - Install [Node.js][2]
 
@@ -30,7 +30,7 @@ Node.js is the runtime environment for server-side Javascript. If you don't have
 Using some type of VCS is the first step to get you hanging out with the cool kids, not using it makes you a dolt in the long-term and rightfully so.
 
 
-### 2. Open up a Terminal/Shell on your computer:
+### 2. Now open a Terminal/Shell on your computer:
 
  Both Mac & Windows have some kind of a terminal already installed:
 
@@ -49,7 +49,7 @@ A terminal is basically a window that allows you to instruct your computer to do
 
   - **Windows:** Right-click on `cmd` and click *Run as Administrator* to launch `cmd` using Administrator rights.
 
-### 3. Clone the project and get into the cloned project's folder:
+### 3. Clone or "download" the project on your computer and get into the cloned project's folder:
 
 ```bash
 $ git clone https://github.com/nicholaswmin/node-server.git
@@ -64,7 +64,7 @@ What it means is: `c`hange `d`irectory to `node-server`
 
 The rest of the commands assume you are in the project directory.
 
-### 4. Install project dependencies:
+### 4. Next, download & install the project dependencies:
 
 ```bash
 $ npm install
@@ -77,7 +77,7 @@ You can write you own Node modules if you want and use them. They are a nice way
 
 This command tells your computer to look somewhere on the Internet (the [npm][11] registry to be exact) for these modules, download them and install them for us. Hassle free.
 
-### 5. Run the app:
+### 5. Finally, just run the thing:
 
 
 ```bash
