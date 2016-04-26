@@ -25,7 +25,7 @@ These are 5 simple steps that even a monkey can follow. After going through them
 
 Node.js is the runtime environment for server-side Javascript. If you don't have this your computer won't be able to understand(interpret) the code in this project. Long story short it won't be able to run the code.
 
-Git is the version control system(VCS) for this project. Something like Dropbox but for code. You don't actually need it since you can just download this project as a ZIP (there's a button in this page at the top "Download ZIP") and run it. However the instructions below assume that you're using GIT to fetch the project files on your computer.
+[Git][14] is the version control system(VCS) for this project. Something like Dropbox but for code. You don't actually need it since you can just [Download the project as ZIP](https://github.com/nicholaswmin/node-server/archive/master.zip) and run it. However the instructions below assume that you're using Git to fetch the project files on your computer.
 
 
 ### 2. Open up a Terminal/Shell on your computer:
@@ -166,3 +166,4 @@ There's a ton of similar projects online. I know that. I had wisdom-tooth surger
 [11]:https://www.npmjs.com/
 [12]:http://expressjs.com/
 [13]:https://nodejs.org/
+[14]:https://git-scm.com/
