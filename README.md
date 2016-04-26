@@ -89,6 +89,13 @@ Some things you can Google:
 - [What's package.json file in the project?][6]
 - [Node.js & Express framework tutorial for beginners][7]
 
+====
+
+### Disclaimer:
+
+This repo is [MIT][8] licensed, meaning you can do whatever you want with it.
+
+The project logo (that cloud icon) is from [icons8.com][8]
 
 [1]:https://maxcdn.icons8.com/Color/PNG/96/Weather/cloud_lighting-96.png
 [2]:https://nodejs.org/en/download/
@@ -97,3 +104,4 @@ Some things you can Google:
 [5]:https://atom.io/
 [6]:https://github.com/vigetlabs/gulp-starter/wiki/What-is-package.json%3F
 [7]:https://codeforgeek.com/2014/06/express-nodejs-tutorial/
+[8]:https://icons8.com/
