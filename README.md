@@ -1,7 +1,7 @@
 ![][1]
 ## Node Server
 
-> Most simple & basic Node Server in < 20 lines of code (comments included)
+> Simple & basic Node Server in < 20 lines of code (comments included)
 
 ====
 
