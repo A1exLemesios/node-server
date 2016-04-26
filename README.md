@@ -71,7 +71,9 @@ $ npm install
 
 ```
 
-The project relies on some Node Modules to make things tick. These are code files that someone else usually wrote that I'm just including in the project so I can use them. The project depends on them and you can't run it properly without them. The most critical dependency here is Express which is boilerplate code that allows us to create proper servers using very few lines of code.
+The project relies on some Node Modules to make things tick. These are code files that someone else wrote bundle some functionality(image compression, encryption etc..) we can use in the project. The project depends on them and you can't run it properly without them. The most critical dependency here is Express which is boilerplate code that allows us to create proper servers using very few lines of code.
+
+You can write you own Node modules if you want and use them. They are a nice way of [separating functionality][15] in different parts within your project.
 
 This command tells your computer to look somewhere on the Internet (the [npm][11] registry to be exact) for these modules, download them and install them for us. Hassle free.
 
@@ -176,3 +178,4 @@ The project logo (that cloud icon) is from [icons8.com][8]
 [12]:http://expressjs.com/
 [13]:https://nodejs.org/
 [14]:https://git-scm.com/
+[15]:https://en.wikipedia.org/wiki/Separation_of_concerns
