@@ -1,7 +1,7 @@
 // Declare dependecies / libraries we use on our server
 var express     = require("express");
 var app         = express();
-
+var mysql      = require('mysql');
 
 // Create routes (or 'pages' if you want)
 app.get("/", function(request, response) {
@@ -14,6 +14,14 @@ app.get("/about", function(request, response) {
 
 app.get("/contact", function(request, response) {
   response.send("Welcome to the Contact Us page!");
+});
+
+app.get("/ourTeam", function(request, response) {
+  response.send("Welcome to our team page!");
+});
+
+app.get("/libraries", function(request, response) {
+  response.send("Welcome to the libraries page!");
 });
 
 

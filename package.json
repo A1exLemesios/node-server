@@ -16,6 +16,8 @@
   "author": "@nicholaswmin",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "mysql": "^2.10.2",
+    "node-mysql": "^0.4.2"
   }
 }
