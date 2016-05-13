@@ -1,12 +1,47 @@
 // Declare dependecies / libraries we use on our server
 var express     = require("express");
 var app         = express();
-var mysql      = require('mysql');
+var mysql       = require("mysql");
+
+/* Connect with a database */
+var database = mysql.createConnection({
+  host     : 'localhost',
+  user     : 'root',
+  password : 'root',
+  database : 'sampledb'
+});
+
+database.connect();
 
 // Create routes (or 'pages' if you want)
+
 app.get("/", function(request, response) {
-  response.send("Welcome to the Homepage!");
+  response.send("Welcome to the Homepage");
 });
+
+app.get("/users", function(request, response) {
+  database.query('SELECT * FROM user', function(error, rows) {
+    if (error) throw error;
+    var result = JSON.stringify(rows);
+    response.send("All the users : " + result);
+  });
+});
+
+app.post("/user", function(request, response) {
+  var firstName = request.query.firstName;
+  var lastName  = request.query.lastName;
+  console.log(firstName, lastName);
+
+});
+
+app.get("/orders", function(request, response) {
+  database.query('SELECT * FROM sampledb.order', function(error, rows) {
+    if (error) throw error;
+    var result = JSON.stringify(rows);
+    response.send("All the orders : " + result);
+  });
+});
+
 
 app.get("/about", function(request, response) {
   response.send("Welcome to the About Us page!");
