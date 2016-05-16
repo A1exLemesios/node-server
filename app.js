@@ -28,9 +28,16 @@ app.get("/users", function(request, response) {
 });
 
 app.post("/user", function(request, response) {
-  var firstName = request.query.firstName;
-  var lastName  = request.query.lastName;
-  console.log(firstName, lastName);
+  var values    = {
+   userName : request.query.userName ,
+   userLastname  : request.query.userLastname
+  };
+  database.query('INSERT INTO user SET ?', [values], function(error, rows) {
+    if (error) throw error;
+    var result = JSON.stringify(rows);
+    response.send("Operation held successfully !! :)" + result);
+  });
+  console.log(values);
 
 });
 
