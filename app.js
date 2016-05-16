@@ -5,10 +5,10 @@ var mysql       = require("mysql");
 
 /* Connect with a database */
 var database = mysql.createConnection({
-  host     : 'localhost',
-  user     : 'root',
-  password : 'root',
-  database : 'sampledb'
+  host: 'localhost',
+  user: 'root',
+  password: 'root',
+  database: 'sampledb'
 });
 
 database.connect();
@@ -29,17 +29,38 @@ app.get("/users", function(request, response) {
 
 app.post("/user", function(request, response) {
   var values    = {
-   userName : request.query.userName ,
-   userLastname  : request.query.userLastname
+    userName: request.query.userName,
+    userLastname: request.query.userLastname
   };
   database.query('INSERT INTO user SET ?', [values], function(error, rows) {
     if (error) throw error;
     var result = JSON.stringify(rows);
     response.send("Operation held successfully !! :)" + result);
   });
-  console.log(values);
-
 });
+
+app.put("/user", function(request, response) {
+  var idUser = request.query.idUser;
+  var values = {
+    userName: request.query.userName,
+    userLastname: request.query.userLastname
+  };
+  database.query(`UPDATE user SET ? WHERE idUser = ?`, [values, idUser], function(error, rows) {
+    if (error) throw error;
+    var result = JSON.stringify(rows);
+    response.send("Operation held successfully !! :)" + result);
+  });
+});
+
+app.delete("/user", function(request, response) {
+  var idUser = request.query.idUser;
+  database.query(`DELETE FROM user WHERE idUser= ?`, [idUser], function(error, rows) {
+    if (error) throw error;
+    var result = JSON.stringify(rows);
+    response.send("Operation held successfully !! :)" + result);
+  });
+});
+
 
 app.get("/orders", function(request, response) {
   database.query('SELECT * FROM sampledb.order', function(error, rows) {
